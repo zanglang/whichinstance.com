@@ -1,5 +1,5 @@
 {
-  "vers": 0.01,
+  "vers": 0.02,
   "config": {
     "valueColumns": [
       "upfront",
@@ -4392,6 +4392,165 @@
           },
           {
             "type": "hiMemCurrentGen",
+            "sizes": [
+              {
+                "size": "r3.large",
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  }
+                ]
+              },
+              {
+                "size": "r3.xlarge",
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  }
+                ]
+              },
+              {
+                "size": "r3.2xlarge",
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  }
+                ]
+              },
+              {
+                "size": "r3.4xlarge",
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  }
+                ]
+              },
+              {
+                "size": "r3.8xlarge",
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "N/A"
+                    }
+                  }
+                ]
+              },
+          },
+          {
+            "type": "hiMemPreviousGen",
             "sizes": [
               {
                 "size": "m2.xlarge",
