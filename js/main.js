@@ -291,7 +291,7 @@ $(document).ready(function() {
     });
 
     $.ajax({
-        url: '/js/linux-od.json',
+        url: 'js/linux-od.json',
         async: false,
         success: function(data) {
             onDemandData = data;
@@ -317,7 +317,7 @@ $(document).ready(function() {
 
     $.each(['medium', 'light'], function(_, obj) {
         $.ajax({
-            url: '/js/linux-ri-' + obj + '.json',
+            url: 'js/linux-ri-' + obj + '.json',
             success: function(data) {
                 reservedData[obj] = data;
 
@@ -328,7 +328,7 @@ $(document).ready(function() {
 
     $.each(['heavy'], function(_, obj) {
         $.ajax({
-            url: '/js/linux-ri-' + obj + '.json',
+            url: 'js/linux-ri-' + obj + '.json',
             success: function(data) {
                 reservedData[obj] = data;
 
