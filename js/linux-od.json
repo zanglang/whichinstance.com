@@ -2527,7 +2527,7 @@
                   ]
                },
                {
-                  "type":"computeCurrentGen",
+                  "type":"c3",
                   "sizes":[
                      {
                         "size":"c3.large",
